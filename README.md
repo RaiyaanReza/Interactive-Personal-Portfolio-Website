@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="public/images/profile.jpg" alt="Raiyan Reza" width="150" height="150" style="border-radius: 50%;" />
+  <img src="public/images/profile_1.jpg" alt="Raiyan Reza" width="150" height="150" style="border-radius: 50%;" />
 </p>
 
 <h1 align="center">Interactive Personal Portfolio Website</h1>
