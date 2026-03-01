@@ -42,7 +42,7 @@ export function Header() {
                 className="px-3 py-2 text-sm font-medium text-muted-foreground hover:text-foreground transition-colors relative group"
               >
                 {item.label}
-                <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-linear-to-r from-[#dc2626] to-[#e11d48] group-hover:w-full transition-all duration-300" />
+                <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-linear-to-r from-[#10b981] to-[#0d9488] group-hover:w-full transition-all duration-300" />
               </a>
             ))}
             <div className="ml-2">

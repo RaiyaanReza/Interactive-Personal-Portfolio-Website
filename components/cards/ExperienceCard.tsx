@@ -17,9 +17,9 @@ const typeIcons = {
 };
 
 const typeColors = {
-  work: "from-[#dc2626] to-[#b91c1c]",
-  hackathon: "from-[#e11d48] to-[#be123c]",
-  competition: "from-[#f59e0b] to-[#d97706]",
+  work: "from-[#10b981] to-[#059669]",
+  hackathon: "from-[#0d9488] to-[#0f766e]",
+  competition: "from-[#14b8a6] to-[#0d9488]",
 };
 
 export function ExperienceCard({ experience, index }: ExperienceCardProps) {

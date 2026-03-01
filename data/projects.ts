@@ -6,7 +6,7 @@ export const projects: Project[] = [
     title: "Multi-Crop Plant Disease Identification",
     description:
       "A deep learning classification system trained on the AgriVision dataset using YOLO26 architecture. Identifies 57 disease and healthy classes across 8 crop types, achieving 82.7% top-1 accuracy on 10,727 images. Includes ONNX deployment for edge devices.",
-    image: "/images/projects/plant-disease.jpg",
+    image: "/images/project images/multi-crop plant disease.jpg",
     tags: ["YOLO26", "Computer Vision", "Python", "Deep Learning", "ONNX"],
     github:
       "https://github.com/RaiyaanReza/A-Multi-Crop-Plant-Disease-Identification-System",
@@ -18,7 +18,7 @@ export const projects: Project[] = [
     title: "PawCare — AI Veterinary Telemedicine",
     description:
       "AI-assisted Next.js platform connecting pet owners with verified veterinarians for virtual appointments, scheduling, and credit-based billing. Features Vonage video sessions, Clerk auth, Prisma ORM, and real-time slot management.",
-    image: "/images/projects/pawcare.jpg",
+    image: "/images/project images/pawcare.jpg",
     tags: ["Next.js", "React", "Prisma", "Clerk", "Vonage", "PostgreSQL"],
     github:
       "https://github.com/RaiyaanReza/PawCare-GenAI-Medical-Assistant-App",
@@ -42,7 +42,7 @@ export const projects: Project[] = [
     title: "MathScriber — AI Math OCR",
     description:
       "AI-powered application that converts handwritten math equations to LaTeX. Supports image upload, stylus drawing, and PDF input. Uses pix2tex for equation OCR and Tesseract/Gemini for table conversion with live MathJax rendering.",
-    image: "/images/projects/mathscriber.jpg",
+    image: "/images/project images/mathscriber.jpg",
     tags: ["Django", "pix2tex", "OCR", "Python", "MathJax"],
     github:
       "https://github.com/RaiyaanReza/MathScriber-AI-Powered-Math-to-Latex-App",
@@ -66,7 +66,7 @@ export const projects: Project[] = [
     title: "Tomato Leaf Disease Segmentation",
     description:
       "Instance segmentation system for tomato leaf diseases using YOLO26 for detection and SAM2 (Segment Anything Model 2) for precise disease region segmentation.",
-    image: "/images/projects/tomato-seg.jpg",
+    image: "/images/project images/tomato_leaf_disase.png",
     tags: ["YOLO26", "SAM2", "Segmentation", "Python", "Computer Vision"],
     github:
       "https://github.com/RaiyaanReza/Tomato-Leaf-Disease-Segmentation-using-YOLO26-and-SAM2",
@@ -102,7 +102,7 @@ export const projects: Project[] = [
     title: "License Plate Enhancement (Autoencoders)",
     description:
       "Denoising autoencoder model to enhance and restore degraded license plate images, improving readability for downstream OCR systems.",
-    image: "/images/projects/plate-enhancement.jpg",
+    image: "/images/project images/license_plate_enhance.jpg",
     tags: ["Autoencoders", "Python", "Image Processing", "Deep Learning"],
     github:
       "https://github.com/RaiyaanReza/License-Plate-Enhancement-Denoising-Autoencoders",
@@ -126,7 +126,7 @@ export const projects: Project[] = [
     title: "RAG Chatbot on YouTube Videos",
     description:
       "Retrieval-Augmented Generation chatbot that processes YouTube video transcripts and enables conversational Q&A using LangChain and vector embeddings.",
-    image: "/images/projects/rag-chatbot.jpg",
+    image: "/images/project images/rag_chatbot_yt.jpg",
     tags: ["LangChain", "RAG", "Python", "LLM", "Vector DB"],
     github: "https://github.com/RaiyaanReza/rag_chatbot_on_youtube_video",
     category: "AI",
@@ -159,7 +159,7 @@ export const projects: Project[] = [
     title: "Inventory Management (React + FastAPI)",
     description:
       "Full-stack inventory management system with React frontend and FastAPI backend. Features CRUD operations and real-time dashboard.",
-    image: "/images/projects/inventory.jpg",
+    image: "/images/project images/inventory_management.jpg",
     tags: ["React", "FastAPI", "Python", "Full Stack"],
     github:
       "https://github.com/RaiyaanReza/project-inventory-management-using-react-fastapi",

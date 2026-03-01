@@ -10,6 +10,7 @@ export const experiences: Experience[] = [
       "Assisted faculty in conducting lab sessions, grading assignments, and mentoring 100+ students across 3 semesters. Helped students understand complex concepts in Discrete Mathematics and Programming fundamentals.",
     type: "work",
     tags: ["Teaching", "Mentoring", "Discrete Math", "Programming"],
+    images: ["/images/experience pic/work_in_dhp_ta_ship.jpg"],
   },
   {
     id: 2,
@@ -20,6 +21,7 @@ export const experiences: Experience[] = [
       "Reached Top 10 in a national AI hackathon. Developed an AI-driven solution leveraging agentic workflows with LLMs, LangChain, and LangGraph for real-world problem solving.",
     type: "hackathon",
     tags: ["LLM", "LangChain", "Agentic AI", "Top 10"],
+    images: ["/images/experience pic/solvio_ai_hackathon.jpg"],
   },
   {
     id: 3,

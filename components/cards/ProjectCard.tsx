@@ -12,10 +12,10 @@ interface ProjectCardProps {
 }
 
 const categoryGradients: Record<string, string> = {
-  AI: "from-red-900/40 via-rose-800/30 to-orange-900/20",
-  Web: "from-rose-900/40 via-red-800/30 to-amber-900/20",
-  ML: "from-orange-900/40 via-red-800/30 to-rose-900/20",
-  Mobile: "from-amber-900/40 via-rose-800/30 to-red-900/20",
+  AI: "from-emerald-900/40 via-teal-800/30 to-green-900/20",
+  Web: "from-teal-900/40 via-emerald-800/30 to-cyan-900/20",
+  ML: "from-green-900/40 via-emerald-800/30 to-teal-900/20",
+  Mobile: "from-cyan-900/40 via-teal-800/30 to-emerald-900/20",
 };
 
 const categoryIcons: Record<string, string> = {
@@ -41,7 +41,7 @@ export function ProjectCard({ project, index }: ProjectCardProps) {
         {/* Featured badge */}
         {project.featured && (
           <div className="absolute top-3 right-3 z-10">
-            <Badge className="bg-linear-to-r from-[#dc2626] to-[#e11d48] text-white border-0 gap-1 shadow-lg shadow-red-500/30">
+            <Badge className="bg-linear-to-r from-[#10b981] to-[#0d9488] text-white border-0 gap-1 shadow-lg shadow-emerald-500/30">
               <Star className="h-3 w-3 fill-current" /> Featured
             </Badge>
           </div>
@@ -52,8 +52,8 @@ export function ProjectCard({ project, index }: ProjectCardProps) {
           {/* Animated background pattern */}
           <div className="absolute inset-0 opacity-10">
             <div className="absolute inset-0" style={{
-              backgroundImage: `radial-gradient(circle at 25% 25%, rgba(239, 68, 68, 0.3) 0%, transparent 50%), 
-                               radial-gradient(circle at 75% 75%, rgba(225, 29, 72, 0.3) 0%, transparent 50%)`,
+              backgroundImage: `radial-gradient(circle at 25% 25%, rgba(16, 185, 129, 0.3) 0%, transparent 50%), 
+                               radial-gradient(circle at 75% 75%, rgba(13, 148, 136, 0.3) 0%, transparent 50%)`,
             }} />
           </div>
           

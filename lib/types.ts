@@ -30,6 +30,7 @@ export interface Experience {
   description: string;
   type: "work" | "hackathon" | "competition";
   tags?: string[];
+  images?: string[];
 }
 
 export interface Achievement {

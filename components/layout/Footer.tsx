@@ -6,7 +6,7 @@ export function Footer() {
   const currentYear = new Date().getFullYear();
 
   return (
-    <footer className="bg-card border-t border-border">
+    <footer className="relative bg-card/80 backdrop-blur-sm border-t border-border">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {/* Brand */}
@@ -81,7 +81,7 @@ export function Footer() {
             &copy; {currentYear} Khan Raiyan Ibne Reza. All rights reserved.
           </p>
           <p className="text-sm text-muted-foreground flex items-center gap-1">
-            Built with <Heart className="h-3 w-3 text-red-500 fill-red-500" />{" "}
+            Built with <Heart className="h-3 w-3 text-emerald-500 fill-emerald-500" />{" "}
             using Next.js, Tailwind CSS & Framer Motion
           </p>
         </div>

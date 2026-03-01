@@ -8,7 +8,7 @@ export function ScrollProgress() {
   return (
     <div className="fixed top-0 left-0 right-0 z-60 h-0.5">
       <div
-        className="h-full bg-linear-to-r from-[#dc2626] via-[#e11d48] to-[#f43f5e] transition-transform duration-150 ease-out scroll-progress"
+        className="h-full bg-linear-to-r from-[#10b981] via-[#0d9488] to-[#14b8a6] transition-transform duration-150 ease-out scroll-progress"
         style={{ transform: `scaleX(${scrollProgress})` }}
       />
     </div>
